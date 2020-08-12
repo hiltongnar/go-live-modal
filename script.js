@@ -1,0 +1,9 @@
+$('#toggle').click(function(){
+    $('#exampleModal').toggleClass('darkModeModal')
+    $('.modal-content').toggleClass('darkModeModalContent')
+    $('.modal-backdrop').toggleClass('darkModeModal')
+    $('.body-title').toggleClass('body-title-dark')
+    $('.game-title').toggleClass('darkModeModalSecond')
+    $('.channel-title').toggleClass('darkModeModalSecond')
+    $('.modal-footer').toggleClass('darkModeModalFoot')
+})
