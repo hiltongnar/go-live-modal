@@ -71,29 +71,36 @@ justify-content: center;
 }
 
 .speak{
-  display: inline-block;
-  width: 40%;
-  margin: 8px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0px 0px 0px 0px;
+  height: 36px;
+}
+
+.peep-holder {
+  width: 30%;
+  height: 36px;
 }
 
 #pic1{
 margin-top: 5px;
-margin-left: 190px;
+margin-left: 80px;
 }
 
 #pic2{
   margin-top: 5px;
-  margin-left: 212px;
+  margin-left: 102px;
 }
 
 #pic3{
   margin-top: 5px;
-  margin-left: 234px;
+  margin-left: 124px;
 }
 
 #pic4{
   margin-top: 5px;
-  margin-left: 256px;
+  margin-left: 146px;
 }
 
 .modal-body {
@@ -124,12 +131,18 @@ padding-right: 16px;
 }
 
 .channel-title {
+  display: flex;
 background-color: #f7f7f7;
 height: 45px;
 margin-top: 15px;
 margin-bottom: 15px;
-padding-left: 16px;
+padding-left: 24px;
 padding-right: 16px;
+}
+
+.indent {
+  text-indent: 10px;
+  margin-bottom: 0px;
 }
 
 .modal-footer {
